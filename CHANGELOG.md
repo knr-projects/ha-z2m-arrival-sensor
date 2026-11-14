@@ -8,6 +8,8 @@ All notable changes to **Z2M Arrival Sensor** (Nexa Project by Manu Escaño).
 - Nexa Project by Manu Escaño signature in the source files, the setup and options dialogs and the README.
 - `codeowners` set in the manifest.
 - Full documentation: how it works, default patterns, Alarmo example, troubleshooting, removal.
+- MIT license.
+- Validated against a test plan on a real installation (Home Assistant OS, Zigbee2MQTT 2.14.3 with EmberZNet 7.4.3, two STSS-PRES-001, Alarmo).
 
 ## 0.1.0 — 2026-11-14
 
