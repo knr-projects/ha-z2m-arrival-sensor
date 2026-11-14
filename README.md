@@ -52,7 +52,7 @@ Each entity exposes the attributes `ieee_address` and `network_address`.
 
 ## Installation (HACS)
 
-1. HACS → ⋮ → **Custom repositories** → add `https://github.com/knr-projects/ha-z2m-arrival-sensor`, type **Integration**.
+1. HACS → ⋮ → **Custom repositories** → add `https://github.com/manuelem1984/ha-z2m-arrival-sensor`, type **Integration**.
 2. Install **Z2M Arrival Sensor** and restart Home Assistant.
 3. Enable the namespace debug log in Zigbee2MQTT (next section).
 4. Settings → Devices & services → **Add integration** → **Z2M Arrival Sensor**.
