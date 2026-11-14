@@ -1,0 +1,55 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Z2M Arrival Sensor",
+        "description": "Presencia de llaveros SmartThings leyendo el registro de Zigbee2MQTT. Requiere log_namespaced_levels con zh:ember:ezsp en debug.",
+        "data": {
+          "sensors": "Llaveros (una línea por llavero: IEEE = nombre)",
+          "timeout": "Segundos sin señal para marcar ausente",
+          "heartbeat_timeout": "Segundos sin tráfico Zigbee para marcar no disponible",
+          "addon_slug": "Slug del complemento Zigbee2MQTT",
+          "base_topic": "Tópico base de Zigbee2MQTT",
+          "beacon_regex": "Patrón de la señal del llavero (grupo nwk o ieee)",
+          "heartbeat_regex": "Patrón de tráfico Zigbee (red viva)",
+          "rejoin_regex": "Patrón de reconexión (grupos nwk e ieee, opcional)",
+          "max_line_age": "Antigüedad máxima de una línea en segundos (0 = sin control)"
+        }
+      }
+    },
+    "error": {
+      "invalid_regex": "Expresión regular no válida",
+      "missing_group": "El patrón debe tener un grupo con nombre nwk o ieee",
+      "invalid_sensors": "Formato no válido. Usa: 0x0123456789abcdef = Nombre",
+      "no_sensors": "Añade al menos un llavero"
+    },
+    "abort": {
+      "single_instance_allowed": "Ya está configurada",
+      "not_supervisor": "Necesita Home Assistant OS o Supervised"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Z2M Arrival Sensor",
+        "data": {
+          "sensors": "Llaveros (una línea por llavero: IEEE = nombre)",
+          "timeout": "Segundos sin señal para marcar ausente",
+          "heartbeat_timeout": "Segundos sin tráfico Zigbee para marcar no disponible",
+          "addon_slug": "Slug del complemento Zigbee2MQTT",
+          "base_topic": "Tópico base de Zigbee2MQTT",
+          "beacon_regex": "Patrón de la señal del llavero (grupo nwk o ieee)",
+          "heartbeat_regex": "Patrón de tráfico Zigbee (red viva)",
+          "rejoin_regex": "Patrón de reconexión (grupos nwk e ieee, opcional)",
+          "max_line_age": "Antigüedad máxima de una línea en segundos (0 = sin control)"
+        }
+      }
+    },
+    "error": {
+      "invalid_regex": "Expresión regular no válida",
+      "missing_group": "El patrón debe tener un grupo con nombre nwk o ieee",
+      "invalid_sensors": "Formato no válido. Usa: 0x0123456789abcdef = Nombre",
+      "no_sensors": "Añade al menos un llavero"
+    }
+  }
+}
