@@ -1,3 +1,5 @@
+# Z2M Arrival Sensor — Nexa Project by Manu Escaño
+# https://github.com/knr-projects/ha-z2m-arrival-sensor
 """Follows the Zigbee2MQTT add-on log and tracks arrival-sensor beacons."""
 from __future__ import annotations
 
