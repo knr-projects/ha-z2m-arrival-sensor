@@ -3,7 +3,7 @@
     "step": {
       "user": {
         "title": "Z2M Arrival Sensor",
-        "description": "Presencia de llaveros SmartThings leyendo el registro de Zigbee2MQTT. Requiere log_namespaced_levels con zh:ember:ezsp en debug.",
+        "description": "Presencia de llaveros SmartThings leyendo el registro de Zigbee2MQTT. Requiere log_namespaced_levels con zh:ember:ezsp en debug.\n\nNexa Project by Manu Escaño",
         "data": {
           "sensors": "Llaveros (una línea por llavero: IEEE = nombre)",
           "timeout": "Segundos sin señal para marcar ausente",
@@ -42,7 +42,8 @@
           "heartbeat_regex": "Patrón de tráfico Zigbee (red viva)",
           "rejoin_regex": "Patrón de reconexión (grupos nwk e ieee, opcional)",
           "max_line_age": "Antigüedad máxima de una línea en segundos (0 = sin control)"
-        }
+        },
+        "description": "Ajustes de Z2M Arrival Sensor.\n\nNexa Project by Manu Escaño"
       }
     },
     "error": {
