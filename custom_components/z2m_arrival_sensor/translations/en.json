@@ -1,0 +1,55 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Z2M Arrival Sensor",
+        "description": "Presence for SmartThings arrival sensors read from the Zigbee2MQTT log. Requires log_namespaced_levels with zh:ember:ezsp set to debug.",
+        "data": {
+          "sensors": "Sensors (one per line: IEEE = name)",
+          "timeout": "Seconds without beacon before away",
+          "heartbeat_timeout": "Seconds without Zigbee traffic before unavailable",
+          "addon_slug": "Zigbee2MQTT add-on slug",
+          "base_topic": "Zigbee2MQTT base topic",
+          "beacon_regex": "Beacon pattern (named group nwk or ieee)",
+          "heartbeat_regex": "Zigbee traffic pattern (network alive)",
+          "rejoin_regex": "Rejoin pattern (groups nwk and ieee, optional)",
+          "max_line_age": "Max line age in seconds (0 = disabled)"
+        }
+      }
+    },
+    "error": {
+      "invalid_regex": "Invalid regular expression",
+      "missing_group": "The pattern needs a named group nwk or ieee",
+      "invalid_sensors": "Invalid format. Use: 0x0123456789abcdef = Name",
+      "no_sensors": "Add at least one sensor"
+    },
+    "abort": {
+      "single_instance_allowed": "Already configured",
+      "not_supervisor": "Requires Home Assistant OS or Supervised"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Z2M Arrival Sensor",
+        "data": {
+          "sensors": "Sensors (one per line: IEEE = name)",
+          "timeout": "Seconds without beacon before away",
+          "heartbeat_timeout": "Seconds without Zigbee traffic before unavailable",
+          "addon_slug": "Zigbee2MQTT add-on slug",
+          "base_topic": "Zigbee2MQTT base topic",
+          "beacon_regex": "Beacon pattern (named group nwk or ieee)",
+          "heartbeat_regex": "Zigbee traffic pattern (network alive)",
+          "rejoin_regex": "Rejoin pattern (groups nwk and ieee, optional)",
+          "max_line_age": "Max line age in seconds (0 = disabled)"
+        }
+      }
+    },
+    "error": {
+      "invalid_regex": "Invalid regular expression",
+      "missing_group": "The pattern needs a named group nwk or ieee",
+      "invalid_sensors": "Invalid format. Use: 0x0123456789abcdef = Name",
+      "no_sensors": "Add at least one sensor"
+    }
+  }
+}
