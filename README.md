@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="custom_components/z2m_arrival_sensor/brand/dark_logo@2x.png">
+    <img alt="Z2M Arrival Sensor — Nexa Project by Manu Escaño" src="custom_components/z2m_arrival_sensor/brand/logo@2x.png" width="480">
+  </picture>
+</p>
+
 # Z2M Arrival Sensor
 
 Workaround for SmartThings arrival sensors (STSS-PRES-001 / PGC410) on Zigbee2MQTT with an **ember** coordinator, where the arrival beacons (profile `0xFC01`, cluster `0xFC05`) reach the adapter but are never processed, so `presence` stays N/A. See [Koenkk/zigbee2mqtt#33697](https://github.com/Koenkk/zigbee2mqtt/issues/33697).
@@ -46,3 +53,7 @@ The global `log_level` can stay at `info`.
 The network address of each sensor is learned from `zigbee2mqtt/bridge/devices` and from rejoin lines, so it keeps working if the address changes.
 
 When Zigbee2MQTT fixes the issue, remove this integration and use the native Zigbee2MQTT entities again.
+
+---
+
+**Z2M Arrival Sensor** is part of **Nexa Project by Manu Escaño**.
