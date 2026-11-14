@@ -1,5 +1,5 @@
 # Z2M Arrival Sensor — Nexa Project by Manu Escaño
-# https://github.com/knr-projects/ha-z2m-arrival-sensor
+# https://github.com/manuelem1984/ha-z2m-arrival-sensor
 """Z2M Arrival Sensor: presence for SmartThings arrival sensors from the Zigbee2MQTT log."""
 from __future__ import annotations
 
