@@ -2,6 +2,11 @@
 
 All notable changes to **Z2M Arrival Sensor** (Nexa Project by Manu Escaño).
 
+## 0.2.1 — 2026-11-14
+
+- Repository moved to [manuelem1984/ha-z2m-arrival-sensor](https://github.com/manuelem1984/ha-z2m-arrival-sensor). Old links redirect.
+- Documentation, issue tracker and `codeowners` in the manifest point to the new owner.
+
 ## 0.2.0 — 2026-11-14
 
 - Brand icon and logo (light and dark) in `custom_components/z2m_arrival_sensor/brand/`, shown in Home Assistant 2026.3+.
