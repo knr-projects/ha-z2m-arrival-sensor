@@ -174,9 +174,23 @@ logger:
 - The namespace debug log makes the Zigbee2MQTT log bigger.
 - Home Assistant OS or Supervised only.
 
+## Tested with
+
+Validated against a test plan on a real installation:
+
+- Home Assistant OS, Home Assistant Core 2026.11
+- Zigbee2MQTT add-on 2.14.3 (ember driver)
+- Aeotec Z-Stick 10 Pro, EmberZNet 7.4.3
+- 2 × SmartThings STSS-PRES-001 (PGC410)
+- Alarmo
+
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md).
+
+## License
+
+[MIT](LICENSE) © 2026 Manu Escaño (Nexa Project)
 
 ---
 
