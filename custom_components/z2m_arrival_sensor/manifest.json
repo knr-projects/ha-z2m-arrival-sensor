@@ -1,0 +1,1 @@
+{"domain":"z2m_arrival_sensor","name":"Z2M Arrival Sensor","codeowners":[],"config_flow":true,"dependencies":["mqtt"],"documentation":"https://github.com/knr-projects/ha-z2m-arrival-sensor","iot_class":"local_push","issue_tracker":"https://github.com/knr-projects/ha-z2m-arrival-sensor/issues","requirements":[],"version":"0.1.0"}
