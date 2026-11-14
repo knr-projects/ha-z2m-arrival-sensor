@@ -3,7 +3,7 @@
     "step": {
       "user": {
         "title": "Z2M Arrival Sensor",
-        "description": "Presence for SmartThings arrival sensors read from the Zigbee2MQTT log. Requires log_namespaced_levels with zh:ember:ezsp set to debug.",
+        "description": "Presence for SmartThings arrival sensors read from the Zigbee2MQTT log. Requires log_namespaced_levels with zh:ember:ezsp set to debug.\n\nNexa Project by Manu Escaño",
         "data": {
           "sensors": "Sensors (one per line: IEEE = name)",
           "timeout": "Seconds without beacon before away",
@@ -42,7 +42,8 @@
           "heartbeat_regex": "Zigbee traffic pattern (network alive)",
           "rejoin_regex": "Rejoin pattern (groups nwk and ieee, optional)",
           "max_line_age": "Max line age in seconds (0 = disabled)"
-        }
+        },
+        "description": "Z2M Arrival Sensor settings.\n\nNexa Project by Manu Escaño"
       }
     },
     "error": {
