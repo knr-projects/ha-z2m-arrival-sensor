@@ -1,3 +1,5 @@
+# Z2M Arrival Sensor — Nexa Project by Manu Escaño
+# https://github.com/knr-projects/ha-z2m-arrival-sensor
 """Presence binary sensors fed by the Zigbee2MQTT log."""
 from __future__ import annotations
 
